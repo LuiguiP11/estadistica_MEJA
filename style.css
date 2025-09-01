@@ -24,6 +24,7 @@
     top: 0;
     left: 0;
     z-index: -1; /* Crucial: lo mantiene en el fondo */
+    pointer-events: none; /* Crucial: hace que los clics lo atraviesen */
 }
 
 body {
